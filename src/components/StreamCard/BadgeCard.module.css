@@ -1,0 +1,23 @@
+.card {
+  background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-7));
+}
+
+.section {
+  position: relative;
+}
+
+.options {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 1px;
+}
+.like {
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: var(--mantine-font-size-xs);
+  color: #fff;
+  font-weight: 700;
+}

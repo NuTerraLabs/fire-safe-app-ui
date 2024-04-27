@@ -1,0 +1,32 @@
+.navbar {
+  height: 100%;
+  width: 100%;
+  background: #475367;
+  display: flex;
+  flex-direction: column;
+  justify-items: 'center';
+}
+
+.navbarMain {
+  flex: 1;
+}
+
+.link {
+  height: rem(70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding-right: 2px;
+  &:hover {
+    background-color: #1a96e5;
+  }
+
+  &[data-active] {
+    &,
+    &:hover {
+      background-color: #1a96e5;
+      color: #fff;
+    }
+  }
+}
